@@ -41,5 +41,5 @@ class complex_number():
 
     @staticmethod
     def print_cis(c):
-        '''Prints the complex number in its p*cis form: mod(c)*(cos(arg) + i*sin(arg))'''
+        '''Prints the complex number in its p*cis form: mod*(cos(arg) + i*sin(arg))'''
         print(f"{complex_number.mod(c)}*(cos({complex_number.carg(c)}) + i*sin({complex_number.carg(c)}))")
